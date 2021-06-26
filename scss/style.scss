@@ -4,6 +4,7 @@
 @import 'reset';
 @import 'libs';
 @import 'global';
+@import 'animation';
 
 
 
@@ -479,6 +480,7 @@
 	}
 	&__box-info{
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
 		margin-top: 40px;
 		&:nth-child(1){
@@ -490,6 +492,7 @@
 		color: rgba(18, 79, 72, 0.37);
 		font-size: 36px;
 		line-height: 80px;
+		flex: 0 1 90px;
 		@extend %ro7;
 	}
 	&__box-info-text{
@@ -498,12 +501,14 @@
 		@extend %ro5;
 		color: #124F48;
 		max-width: 140px;
+		flex: 1 1 auto;
 	}
 	&__box-info-if{
 		color: #FF823B;
 		font-size: 14px;
 		line-height: 26px;
 		@extend %ro7;
+		flex: 0 1 100px;
 	}
 }
 
