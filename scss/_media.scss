@@ -66,6 +66,8 @@
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
+		border: transparent;
+		background: transparent;
 		position: fixed;
 		top: 40px;
 		right: 40px;
@@ -88,10 +90,12 @@
 		top: 0;
 	}
 	.activ--btn .menu__btn-span:nth-child(1){
-		transform: rotate(45deg);		
+		transform: rotate(45deg);
+		transition: all 1s;	
 	}
 	.activ--btn .menu__btn-span:nth-child(3){
 		transform: rotate(-45deg);
+		transition: all 1s;
 	}
 
 	.activ--btn .menu__btn-span:nth-child(2){
