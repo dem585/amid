@@ -11,6 +11,7 @@ body{
 	color: $back-body;
 	min-width: 320px;
 	overflow-x: hidden;
+	transition: all .5s;
 }
 
 .body--hid{
